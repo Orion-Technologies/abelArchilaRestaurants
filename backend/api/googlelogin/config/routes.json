@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/googlelogins",
+      "handler": "googlelogin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/googlelogins/count",
+      "handler": "googlelogin.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/googlelogins/:id",
+      "handler": "googlelogin.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/googlelogins",
+      "handler": "googlelogin.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/googlelogins/:id",
+      "handler": "googlelogin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/googlelogins/:id",
+      "handler": "googlelogin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

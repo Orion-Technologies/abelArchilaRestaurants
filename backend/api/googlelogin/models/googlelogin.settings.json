@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "googlelogins",
+  "info": {
+    "name": "googlelogin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
