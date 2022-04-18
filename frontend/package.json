@@ -21,6 +21,7 @@
     "swagger-ui-express": "^4.3.0"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\"",
     "dev": "nodemon server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
