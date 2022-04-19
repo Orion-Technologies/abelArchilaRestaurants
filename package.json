@@ -1,0 +1,9 @@
+{
+  "name": "abelArchilaRestaurants",
+  "version": "1.0.0",
+  "description": "restaurant app",
+  "main": "index.js",
+  "repository": "https://github.com/Orion-Technologies/abelArchilaRestaurants.git",
+  "author": "Abel Archila <abel.archila@gmail.com>",
+  "license": "MIT"
+}
